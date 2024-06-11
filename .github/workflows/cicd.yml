@@ -1,0 +1,11 @@
+name: CICD
+on: push
+
+jobs:
+  cicd:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Hello World
+      run: echo"hello World!!"
+  
